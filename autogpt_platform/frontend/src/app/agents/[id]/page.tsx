@@ -27,6 +27,7 @@ const agentRunStatusMap: Record<GraphExecution["status"], AgentRunStatus> = {
   FAILED: "failed",
   QUEUED: "queued",
   RUNNING: "running",
+  TERMINATED: "stopped",
   // TODO: implement "draft" - https://github.com/Significant-Gravitas/AutoGPT/issues/9168
   // TODO: implement "stopped" - https://github.com/Significant-Gravitas/AutoGPT/issues/9182
 };
